@@ -1,0 +1,6 @@
+[package]
+name = "reaper-kernel"
+version = "0.1.0"
+authors = ["unmellow"]
+
+[dependencies]
