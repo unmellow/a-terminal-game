@@ -1,2 +1,3 @@
-# reaper-kernel-the-name-sucks-
-an exokernel written in rust 
+# reaper-kernel
+an exokernel for riscv 
+written in rust 
