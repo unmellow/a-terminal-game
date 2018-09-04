@@ -1,6 +1,8 @@
 [package]
-name = "reaper-kernel"
+name = "a-term-game"
 version = "0.1.0"
 authors = ["unmellow unmellow@github.com"]
 
 [dependencies]
+
+rand = "0.3.14"
