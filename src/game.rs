@@ -4,7 +4,7 @@ use std::io;
 use std::cmp::Ordering;
 use self::rand::Rng;
 
-     pub fn start_game(difficulty: u32){
+     pub fn start_game(difficulty: u16){
        let secret_number = rand::thread_rng().gen_range(1, difficulty+1);
        loop{ 
            println!("guess a number between 1 and {}.",difficulty);
@@ -14,7 +14,7 @@ use self::rand::Rng;
            io::stdin().read_line(&mut guess)
               .expect("Failed to read line WHAT DID YOU DO");
 
-           let guess: u32 = match guess.trim().parse(){
+           let guess: u16 = match guess.trim().parse(){
                Ok(num) => num,
                Err(_) => continue,
            };

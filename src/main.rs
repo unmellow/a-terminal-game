@@ -15,7 +15,7 @@ fn main() {
            io::stdin().read_line(&mut x)
               .expect("Failed to read line WHAT DID YOU DO");
 
-           let x: u32 = match x.trim().parse(){
+           let x: u16 = match x.trim().parse(){
                Ok(num) => num,
                Err(_) => continue,
            };
